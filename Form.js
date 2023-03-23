@@ -159,7 +159,7 @@ if(atrito[0]!= undefined && l!=3){if(this.message2==undefined){this.message2=" "
  
    
 Res(){
-  if(this.input.value()==Resp){
+  if(this.input.value()==Resp||this.input.value()==Resp.toFixed(1)||this.input.value()==Resp.toFixed(0)){
     reset()
   }
 }
